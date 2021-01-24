@@ -1,0 +1,3 @@
+def addition(num):
+	num_= int(num)
+	return num_ +1

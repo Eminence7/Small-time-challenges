@@ -1,0 +1,4 @@
+def string_int(txt):
+	txt3 = (int(txt))
+	return txt3
+	

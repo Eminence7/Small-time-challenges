@@ -1,0 +1,27 @@
+#take in a number
+#raise number to powers 2 to 10
+#check values to see if numners endings are is same as num
+#based on number of morphs return its type.
+def power_morphic(num):
+    a= (str(num**2))
+    b=(str(num**3))
+    c=(str(num**4))
+    d=(str(num**5))
+    e=(str(num**6))
+    f=(str(num**7))
+    g=(str(num**8))
+    h=(str(num**9))
+    i=(str(num**10))
+    morphic_list=[a,b,c,d,e,f,g,h,i]
+    p=(len(str(num)))
+   
+    for values in morphic_list: 
+        mx =(str(values[::-1]))
+        
+   
+        if (int(num)) == (int(mx[(p-1)::-1])):
+            return(values)
+        else:
+            return('no')
+    
+    
